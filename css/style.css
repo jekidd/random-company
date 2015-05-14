@@ -69,16 +69,21 @@ header h4 {
     padding-bottom: 20px;
 }
 header button {
-    color: #191919;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-size: 18px;
-    background-color: white;
+    background-color: #F54F53;
     border: none;
     line-height: 50px;
     border-radius: 30px;
     padding: 0 30px;
     margin: 0 auto;
     display: block;
+
+    /*box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);*/
+}
+header button:hover, header button:active {
+    background-color: #E1484C;
 }
 
 section {
@@ -99,9 +104,20 @@ section p {
 }
 
 footer {
-    color: #FFFFFF;
-    min-height: 100px;
+    color: #909090;
     width: 100%;
+    text-align: center;
+}
+footer ul {
+    margin: 0;
+    padding: 20px 0 20px 0;
+}
+footer li {
+    line-height: 24px;
+}
+.half {
+    display: inline-block;
+    width: 49%;
 }
 
 .menu {
