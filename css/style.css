@@ -84,6 +84,7 @@ header button {
 }
 header button:hover, header button:active {
     background-color: #D64549;
+    outline-style: none;
 }
 
 section {
@@ -129,6 +130,7 @@ footer ul {
 }
 footer li {
     line-height: 24 px;
+    font-size: 15px;
 }
 .half {
     display: inline-block;
@@ -164,7 +166,7 @@ footer li {
     background-color: #FFFFFF;
 }
 .background-gray {
-    background-color: #F0F0F0;
+    background-color: #F4F4F4;
 }
 .background-dark-gray {
     background-color: #191919;
