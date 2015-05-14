@@ -1,1 +1,40 @@
-hello
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>login</title>
+</head>
+<body class="background-gray" ng-app>
+    <nav class="background-white">
+    <div class="container">
+        <h3>Company</h3>
+        <div class="hamburger" ng-click="open='open'" ng-hide="open">≡</div>
+        <div class="close-hamburger" ng-click="open=null" ng-show="open">✕</div>
+    </div>
+    </nav>
+    <div class="menu">
+        <ul ng-show="open">
+        <a href="">
+            <li>Home</li>
+        </a>
+        <a href="">
+            <li>Account</li>
+        </a>
+        <a href="">
+            <li>About Us</li>
+        </a>
+        <a href="">
+            <li>Careers</li>
+        </a>
+        <a href="">
+            <li>Legal</li>
+        </a>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+</body>
+</html>
